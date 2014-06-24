@@ -18,7 +18,7 @@ Gem::Specification.new do |s|
   s.files -= Dir['lib/tasks/module_tasks.rake']
   s.test_files = Dir["test/**/*"]
 
-  s.add_dependency("aws-sdk", "~> 1.5.0")
+  s.add_dependency("aws-sdk", "~> 1.44.0")
   s.add_dependency "browsercms", "~> 4.0.0.alpha"
 
   s.add_development_dependency "sqlite3"
