@@ -10,7 +10,7 @@ GIT
 PATH
   remote: .
   specs:
-    bcms_aws_s3 (0.0.1)
+    bcms_aws_s3 (4.0.0.beta.pre.art1)
       aws-sdk (~> 1.44.0)
       browsercms (~> 4.0.0.alpha)
 
