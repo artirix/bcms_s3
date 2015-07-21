@@ -5,12 +5,12 @@ require "bcms_s3/version"
 
 # Describe your gem and declare its dependencies:
 Gem::Specification.new do |s|
-  s.name        = "bcms_aws_s3"
+  s.name        = "bcms_aws_s3-artirix"
   s.version     = BcmsS3::VERSION
-  s.authors     = ["BrowserMedia", "Anthony Underwood", "Neil Middleton"]
+  s.authors     = ["BrowserMedia", "Anthony Underwood", "Neil Middleton", 'Artirix Ltd.']
   s.email       = %q{github@browsermedia.com}
-  s.homepage    = %q{https://github.com/browsermedia/bcms_s3}
-  s.summary     = %q{An S3 module for BrowserCMS}
+  s.homepage    = %q{https://github.com/artirix/bcms_s3}
+  s.summary     = %q{Artirix Fork for bcms_s3 - An S3 module for BrowserCMS}
   s.description = %q{A BrowserCMS module that stores attachments on Amazon S3 rather than on the filesystem.}
   s.rubyforge_project = s.name
 
